@@ -6,4 +6,4 @@ RUN pip install flask
 COPY * ./
 
 CMD [ "python", "./flask_app_stories.py" ]
-EXPOSE 4000
+EXPOSE 8080
