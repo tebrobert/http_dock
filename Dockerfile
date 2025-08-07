@@ -5,5 +5,5 @@ WORKDIR /usr/src/app
 RUN pip install flask
 COPY * ./
 
-CMD [ "python", "./flask_app_stories.py" ]
 EXPOSE 8080
+CMD [ "python", "./flask_app_stories.py" ]
